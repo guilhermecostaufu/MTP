@@ -7,8 +7,7 @@ int main()
     scanf("%f", &num);
     num=1.0/num;
     aux=num;
-    while (i<729)
-    {
+    while (i<729){
         num=num+aux;
         i++;
     }
