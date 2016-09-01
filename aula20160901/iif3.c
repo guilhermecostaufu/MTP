@@ -1,13 +1,17 @@
 #include <stdio.h>
 int main()
 {
-    int num;
+    float num,aux;
     int i=0;
     printf("Digite um numero inteiro:");
-    scanf("%d", &num);
+    scanf("%f", &num);
     num=1.0/num;
+    aux=num;
     while (i<729)
-        num=num+num;
+    {
+        num=num+aux;
+        i++;
+    }
     printf("%f\n", num);
     return 0;
 }
