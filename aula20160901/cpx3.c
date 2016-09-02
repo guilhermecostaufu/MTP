@@ -10,7 +10,7 @@ int main()
     printf("Digite a parte imaginaria do primeiro numero complexo:");
     scanf("%lf", &pimag);
     Z1=preal+pimag*I;
-    raiz=sqrt(Z1);
+    raiz=csqrt(Z1);
     printf("Raiz: %lf + %lf*I\n",creal(raiz),cimag(raiz));
     return 0;
 }
