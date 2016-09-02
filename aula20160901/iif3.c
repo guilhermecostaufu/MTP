@@ -1,16 +1,22 @@
 #include <stdio.h>
 int main()
 {
-    float num,aux;
-    int i=0;
+    int num,i=0;
+    float inversao1,soma1;
+    double inversao2,soma2;
     printf("Digite um numero inteiro:");
-    scanf("%f", &num);
-    num=1.0/num;
-    aux=num;
-    while (i<729){
-        num=num+aux;
+    scanf("%d", &num);
+    inversao1=1.00/num;
+    inversao2=1.00/num;
+    soma1=inversao1;
+    soma2=inversao2;
+    while(i<728)
+    {
+        soma1=soma1+inversao1;
+        soma2=soma2+inversao2;
         i++;
     }
-    printf("%f\n", num);
+    printf("%.15g\n", soma1);
+    printf("%.15g\n", soma2);
     return 0;
 }
