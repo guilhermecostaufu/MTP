@@ -1,0 +1,49 @@
+#include <stdio.h>
+//typedef enum { Janeiro=1,Fevereiro=2,Marco=3,Abril=4,Maio=5,Junho=6,Julho=7,Agosto=8,Setembro=9,Outubro=10,Novembro=11,Dezembro=12}
+//bool;
+int main()
+{
+    int mes;
+    printf("Digite o mes do ano:");
+    scanf("%d", &mes);
+    switch(mes)
+    {
+        case 1:
+            printf("Janeiro");
+            break;
+        case 2:
+            printf("Fevereiro");
+            break;
+        case 3:
+            printf("Marco");
+            break;
+        case 4:
+            printf("Abril");
+            break;
+        case 5:
+            printf("Maio");
+            break;
+        case 6:
+            printf("Junho");
+            break;
+        case 7:
+            printf("Julho");
+            break;
+        case 8:
+            printf("Agosto");
+            break;
+        case 9:
+            printf("Setembro");
+            break;
+        case 10:
+            printf("Outubro");
+            break;
+        case 11:
+            printf("Novembro");
+            break;
+        case 12:
+            printf("Dezembro");
+            break;
+    }
+    return 0;
+}
