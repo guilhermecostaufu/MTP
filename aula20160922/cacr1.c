@@ -12,19 +12,28 @@ int primo(int num)
 }
 int main()
 {
-    int i,x;
+    int i,x,vet[300],k,j=0,l=0;
     printf("Digite um numero:");
     scanf("%d", &x);
     if (primo(x)==1)
-        printf("O numero eh primo");
+        printf("O numero eh primo\n");
     else
     {
-        printf("Nao eh primo");
-        for(i=1;i<x;i++)
-        {
-            if(primo(i)==1)
-                printf("%d\n", i);
-        }
+        printf("Nao eh primo\n");
     }
+    for(i=1;i<x;i++)
+    {
+        if(primo(i)==1)
+        {
+            vet[j]=i;
+            j++;
+        }
+
+    }
+    for(k=0;k<j;k++)
+        for(l=0;l<j;l++)
+            if(vet[k]+vet[l]==x)
+                printf("%d,%d\n",vet[k],vet[l]);
+
     return 0;
 }
