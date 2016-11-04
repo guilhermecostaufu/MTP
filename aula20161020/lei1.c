@@ -85,7 +85,7 @@ char * leTexto()
 			else
 				printf("**Error! Out of memory!**\n  ");
 		}
-	}while(c != EOF);
+	}while(c!=EOF);
 	fclose(arquivo);
 	return texto;
 }
