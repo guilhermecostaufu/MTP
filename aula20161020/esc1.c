@@ -43,7 +43,7 @@ char * recebeTexto( )
 			else
 				printf("**Error! Out of memory!**\n  ");
 		}
-	}while(c != '#');
+	}while(c!='#');
 	return texto;
 }
 void gravaTexto ( char * texto, int tamanho )
