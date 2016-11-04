@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 void aleatorio ( int n, char * nome );
-int main () {
+int main ()
+{
     srand(time(0));
     int n;
     char nome[256];
@@ -13,7 +14,8 @@ int main () {
     aleatorio(n, nome);
     return 0;
 }
-void aleatorio ( int n, char * nome ) {
+void aleatorio ( int n, char * nome )
+{
     FILE * arquivo;
     int i, * vetor = (int *) malloc( n*sizeof(int) );
     arquivo = fopen(nome,"w");
