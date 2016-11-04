@@ -4,7 +4,8 @@
 
 void gravarDados();
 void lerDados();
-int main () {
+int main ()
+{
     int opcao;
     do {
         printf("*********\n\n");
@@ -19,7 +20,8 @@ int main () {
     }while(opcao);
     return 0;
 }
-void gravarDados() {
+void gravarDados()
+{
     FILE * arquivo;
     char nome[NCHAR];
     int idade;
@@ -32,7 +34,8 @@ void gravarDados() {
     fscanf(stdin, "%f", &altura);
     arquivo = fopen("info.txt","w");
 }
-void lerDados() {
+void lerDados()
+{
     FILE * arquivo;
     char nome[NCHAR];
     int idade;
@@ -40,10 +43,11 @@ void lerDados() {
     arquivo = fopen("info.txt","r");
     if ( arquivo == NULL )
         fprintf(stderr, "Arquivo nao existente!\n");
-    else {
+    else
+    {
         fgets(nome, NCHAR, arquivo);
         nome[strlen(nome) - 1] = '\0'; //Excluindo o enter da string
-        fscanf(arquivo, "%d\n%f\n", &idade, &altura); //Aqui tira o nome porque tem espaço
+        fscanf(arquivo, "%d\n%f\n", &idade, &altura); //Aqui tira o nome porque tem espaÃ§o
         fclose(arquivo);
         printf("Nome: ");
         fprintf(stdout, "%s\n", nome);
