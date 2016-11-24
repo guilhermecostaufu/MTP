@@ -1,0 +1,79 @@
+﻿Build started 24/11/2016 10:49:05.
+     1>Project "C:\Users\1E30\Desktop\MTP-master\aula20161117\projGUI2\projGUI2\projGUI2.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\1E30\Desktop\MTP-master\aula20161117\projGUI2\Release\".
+       InitializeBuildStatus:
+         Creating "Release\projGUI2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\projGUI2.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\projGUI2.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp projGUI2.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         projGUI2.cpp
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(163): error C2039: 'button4_Click' : is not a member of 'projGUI2::Form1'
+                 c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(17) : see declaration of 'projGUI2::Form1'
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(163): error C2065: 'button4_Click' : undeclared identifier
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(163): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(175): error C2039: 'button5_Click' : is not a member of 'projGUI2::Form1'
+                 c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(17) : see declaration of 'projGUI2::Form1'
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(175): error C2065: 'button5_Click' : undeclared identifier
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(175): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(223): error C2039: 'button4_Click' : is not a member of 'projGUI2::Form1'
+                 c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(17) : see declaration of 'projGUI2::Form1'
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(223): error C2065: 'button4_Click' : undeclared identifier
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(223): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(235): error C2039: 'button5_Click' : is not a member of 'projGUI2::Form1'
+                 c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(17) : see declaration of 'projGUI2::Form1'
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(235): error C2065: 'button5_Click' : undeclared identifier
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(235): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(283): error C2039: 'button4_Click' : is not a member of 'projGUI2::Form1'
+                 c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(17) : see declaration of 'projGUI2::Form1'
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(283): error C2065: 'button4_Click' : undeclared identifier
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(283): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(295): error C2039: 'button5_Click' : is not a member of 'projGUI2::Form1'
+                 c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(17) : see declaration of 'projGUI2::Form1'
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(295): error C2065: 'button5_Click' : undeclared identifier
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(295): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(341): error C2039: 'button4_Click' : is not a member of 'projGUI2::Form1'
+                 c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(17) : see declaration of 'projGUI2::Form1'
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(341): error C2065: 'button4_Click' : undeclared identifier
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(341): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(354): error C2039: 'button5_Click' : is not a member of 'projGUI2::Form1'
+                 c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(17) : see declaration of 'projGUI2::Form1'
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(354): error C2065: 'button5_Click' : undeclared identifier
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(354): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(407): error C2664: 'void System::Windows::Forms::Control::Text::set(System::String ^)' : cannot convert parameter 1 from 'void' to 'System::String ^'
+                 No user-defined-conversion operator available, or
+                 Expressions of type void cannot be converted to other types
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(413): error C2664: 'void System::Windows::Forms::Control::Text::set(System::String ^)' : cannot convert parameter 1 from 'void' to 'System::String ^'
+                 No user-defined-conversion operator available, or
+                 Expressions of type void cannot be converted to other types
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(419): error C2664: 'void System::Windows::Forms::Control::Text::set(System::String ^)' : cannot convert parameter 1 from 'void' to 'System::String ^'
+                 No user-defined-conversion operator available, or
+                 Expressions of type void cannot be converted to other types
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(425): error C2664: 'void System::Windows::Forms::Control::Text::set(System::String ^)' : cannot convert parameter 1 from 'void' to 'System::String ^'
+                 No user-defined-conversion operator available, or
+                 Expressions of type void cannot be converted to other types
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(431): error C2664: 'void System::Windows::Forms::Control::Text::set(System::String ^)' : cannot convert parameter 1 from 'void' to 'System::String ^'
+                 No user-defined-conversion operator available, or
+                 Expressions of type void cannot be converted to other types
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(437): error C2664: 'void System::Windows::Forms::Control::Text::set(System::String ^)' : cannot convert parameter 1 from 'void' to 'System::String ^'
+                 No user-defined-conversion operator available, or
+                 Expressions of type void cannot be converted to other types
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(443): error C2664: 'void System::Windows::Forms::Control::Text::set(System::String ^)' : cannot convert parameter 1 from 'void' to 'System::String ^'
+                 No user-defined-conversion operator available, or
+                 Expressions of type void cannot be converted to other types
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(449): error C2664: 'void System::Windows::Forms::Control::Text::set(System::String ^)' : cannot convert parameter 1 from 'void' to 'System::String ^'
+                 No user-defined-conversion operator available, or
+                 Expressions of type void cannot be converted to other types
+     1>c:\users\1e30\desktop\mtp-master\aula20161117\projgui2\projgui2\Form1.h(455): error C2664: 'void System::Windows::Forms::Control::Text::set(System::String ^)' : cannot convert parameter 1 from 'void' to 'System::String ^'
+                 No user-defined-conversion operator available, or
+                 Expressions of type void cannot be converted to other types
+         Generating Code...
+     1>Done Building Project "C:\Users\1E30\Desktop\MTP-master\aula20161117\projGUI2\projGUI2\projGUI2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.39
